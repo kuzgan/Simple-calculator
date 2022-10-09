@@ -1,8 +1,8 @@
 # Calculator
 
-Simple calculator app
+Simple calculator app.
 
 Made using:
-  vanilla JavaScript
-  HTML 5 
-  CSS3
+  vanilla JavaScript,
+  HTML 5,
+  CSS3.
