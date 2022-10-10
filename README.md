@@ -1,8 +1,9 @@
-# Calculator
+## Genaral info
 
-Simple calculator app.
+This project is simple calculator application. Allows you to do basic math operations.
 
-Made using:
-  vanilla JavaScript,
-  HTML 5,
-  CSS3.
+## Technologies
+Project is created with:
+ * JavaScript ES6,
+ * HTML 5,
+ * CSS 3.
