@@ -38,21 +38,21 @@ body {
   cursor: pointer;
   outline: none;
   font-size: 2rem;
-  background-color: rgb(30, 30, 30, 0.75);
+  background-color: rgba(30, 30, 30, 0.75);
   color: rgb(200, 200, 200);
 }
 
 .calculator-grid > button:hover {
-  background-color: rgb(30, 30, 30, 0.9);
+  background-color: rgba(30, 30, 30, 0.9);
 }
 
 .calculator-grid > .button-style{
-  background-color: rgb(200, 200, 200, 0.75);
+  background-color: rgba(200, 200, 200, 0.75);
   color: rgb(0,0,0);
 }
 
 .calculator-grid > .button-style:hover{
-  background-color: rgb(200, 200, 200, 0.9);
+  background-color: rgba(200, 200, 200, 0.9);
   color: rgb(0,0,0);
 }
 
@@ -63,7 +63,7 @@ body {
 .output {
   border-radius: 5px;
   grid-column: 1/-1;
-  background-color: rgb(255, 255, 255, 075);
+  background-color: rgba(255, 255, 255, 0.75);
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
@@ -81,7 +81,7 @@ body {
 }
 
 .output .previous-input {
-  color: rgb(0, 0, 0, 0.75);
+  color: rgba(0, 0, 0, 0.75);
   font-size: 1.5rem;
 }
 
@@ -90,5 +90,5 @@ body {
 }
 
 #all-clear-button:hover{
-  background-color: rgb(136, 20, 20, 0.75);
+  background-color: rgba(136, 20, 20, 0.75);
 }
