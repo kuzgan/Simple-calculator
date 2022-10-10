@@ -14,7 +14,7 @@ export default class Caclculator {
     this.currentNumber = this.currentNumber.toString().slice(0, -1);
   }
   compute() {
-    if (this.previousNumber === "") return;
+    if (this.previousNumber === "" || this.currentNumber === "") return;
     switch (this.operation) {
       case "+":
         this.currentNumber =
@@ -50,7 +50,7 @@ export default class Caclculator {
       this.operationDone = false;
     }
     if (number === "." && this.currentNumber.includes(".")) return;
-    if (this.currentNumber.toString().lenght >= 40) return;
+    if (this.currentNumber.toString().lenght >= 20) return;
     if (number === "." && this.currentNumber === "") {
       this.currentNumber = "0.";
       return;
