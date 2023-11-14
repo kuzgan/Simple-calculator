@@ -1,0 +1,20 @@
+{
+  "name": "Simple-calculator",
+  "version": "1.0.0",
+  "description": "This project is simple calculator application. Allows you to do basic math operations.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuzgan/Simple-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuzgan/Simple-calculator/issues"
+  },
+  "homepage": "https://github.com/kuzgan/Simple-calculator#readme"
+}
